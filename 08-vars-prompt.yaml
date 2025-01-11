@@ -4,14 +4,10 @@
   vars_prompt:
   - name: COURSE
     prompt: "Please Enter the Course Name"
-  
   - name: DURATION
     prompt: "Please Enter the Duration"
-
   - name: TRAINER
     prompt: "Please Enter the Trainer Name"
-  - course.yaml
-  
   tasks:
   - name: "print course information"
     ansible.builtin.debug:
