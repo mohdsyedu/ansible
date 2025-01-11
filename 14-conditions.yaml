@@ -1,5 +1,5 @@
 - name: check value is greater than 10 or not
-  host: local
+  hosts: local
   connection: local
   vars:
     my_num: 10
