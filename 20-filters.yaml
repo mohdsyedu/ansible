@@ -30,3 +30,9 @@
       - {'key': 'trainer', 'value': 'siva'}
     ansible.builtin.debug:
       msg: "Courses are: {{ course | items2dict }}"
+
+  - name: convert lower to upper
+    vars:
+      name: "syed basha"
+    ansible.builtin.debug:
+      msg: "lower to upper: {{ name | upper }}"
