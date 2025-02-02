@@ -6,6 +6,7 @@
     sg_id: sg-02f988de9e2552a2d
     ami_id: ami-09c813fb71547fc4f
     instance_type: t3.micro
+    zone: gasikav82s.site
     instances:
     - mysql
     - backend
